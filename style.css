@@ -1,5 +1,100 @@
 *{
-    padding: 0;
     margin: 0;
-    background-color: aqua;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/background.png);
+    background-position: center;
+    background-size: cover;
+    padding: 0 8%;
+    position: relative;
+}
+
+.logo{
+    width: 200px;
+    font-family: 'poppins', sans-serif;
+    padding: 20px 0;
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.slogan{
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.content{
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    color: #fff;
+}
+
+.content h1{
+    font-size: 64px;
+    font-weight: 550;
+}
+
+.title{
+    color: #ff3753;
+}
+
+.content button{
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    padding: 12px 25px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.content button img{
+    width: 15px;
+    margin-left: 10px;
+}
+
+button:hover {
+    background: #ff3753;
+    color: purple;
+    font-weight: 550;
+  }
+
+.landing_time {
+    display: flex;
+    font-size: 60px;
+}
+
+.landing_time p{
+    flex-basis: 100px;
+    font-size: 600px;
+    margin-bottom: -10px;
+}
+
+.rocket{
+    width: 250px;
+    position: absolute;
+    right: 10%;
+    bottom: 0;
+    animation: rocket 5s linear infinite;
+}
+@keyframes rocket{
+    from {
+        top:0;
+        opacity: 0;
+     }
+     
+     to {
+        top:70%;
+        opacity: 1;
+     }
+   
 }
