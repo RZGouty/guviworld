@@ -20,7 +20,7 @@
     font-family: 'poppins', sans-serif;
     padding: 20px 0;
     color: #fff;
-    font-size: 30px;
+    font-size: 20px;
     cursor: pointer;
 }
 
@@ -37,7 +37,7 @@
 }
 
 .content h1{
-    font-size: 64px;
+    font-size: 50px;
     font-weight: 550;
 }
 
@@ -70,19 +70,14 @@ button:hover {
 
 .landing_time {
     display: flex;
-    font-size: 60px;
+    font-size: 40px;
 }
 
-.landing_time p{
-    flex-basis: 100px;
-    font-size: 600px;
-    margin-bottom: -10px;
-}
 
 .rocket{
-    width: 250px;
+    width: 200px;
     position: absolute;
-    right: 10%;
+    right: 5%;
     bottom: 0;
     animation: rocket 5s linear infinite;
 }
@@ -97,4 +92,23 @@ button:hover {
         opacity: 1;
      }
    
+}
+
+.cardano_power{
+    position: absolute;
+    left: 8%;
+    bottom: 5%;
+}
+
+.powered{
+    color: #ff3753;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.cardano{
+    width: 150px;
+    font-family: 'poppins', sans-serif;
+    color: #fff;
+    cursor: pointer;
 }
